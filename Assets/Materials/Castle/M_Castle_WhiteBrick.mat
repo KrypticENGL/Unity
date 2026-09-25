@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Castle_WhiteBrick
+  m_Shader: {fileID: -6465566751694194690, guid: 0a1a8b14021443be9c3eace1d3b71491, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _BrickAspectRatio: 1
+    - _BrickDensity: 1
+    - _BrickFaceTilt: 0.035
+    - _BrickHeight: 0.42
+    - _BrickIrregularity: 0.3
+    - _BrickReliefHeight: 0.012
+    - _BrickScale: 1
+    - _BrickWidth: 0.9
+    - _ColorVariation: 0.55
+    - _EdgeNormalStrength: 1
+    - _EdgeSoftness: 0.6
+    - _EdgeStrength: 0.18
+    - _EdgeWidth: 0.035
+    - _LightResponse: 1.4
+    - _MortarDarkness: 0.85
+    - _MortarOcclusion: 0.35
+    - _MortarSharpness: 0.85
+    - _MortarWidth: 0.03
+    - _NormalStrength: 1
+    - _RimPower: 5
+    - _RimStrength: 0.08
+    - _RowOffset: 0.5
+    - _ShadowSoftness: 0.08
+    - _ShadowStrength: 0.4
+    - _ShadowThreshold: 0.1
+    - _Smoothness: 0.18
+    - _SurfaceNoiseScale: 9
+    - _SurfaceNoiseStrength: 0.035
+    - _SurfaceNormalStrength: 0.06
+    - _UVScale: 4
+    - _WorldSpaceMapping: 1
+    m_Colors:
+    - _BaseWhite: {r: 0.93, g: 0.915, b: 0.88, a: 1}
+    - _DarkBrickColor: {r: 0.8, g: 0.8, b: 0.79, a: 1}
+    - _LightBrickColor: {r: 0.985, g: 0.975, b: 0.95, a: 1}
+    - _MortarColor: {r: 0.56, g: 0.58, b: 0.63, a: 1}
+    - _RimColor: {r: 1, g: 0.96, b: 0.88, a: 1}
+    - _ShadowTint: {r: 0.74, g: 0.76, b: 0.9, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
