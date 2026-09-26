@@ -3,7 +3,92 @@ guid: 59ceb13a099d2244e984327161f967fe
 ModelImporter:
   serializedVersion: 24300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Banner_Fabric
+    second: {fileID: 2100000, guid: c4c10c5967c2517bbff752ce9460c9d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Bark
+    second: {fileID: 2100000, guid: 90d58d72875c5f949711a3568685a231, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_City_Ground
+    second: {fileID: 2100000, guid: 4818437ff633570a9a835025f9af92ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Glass_Cyan
+    second: {fileID: 2100000, guid: 1e64e9c1bcfb535889b869dd54785a35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Glass_Royal_Blue
+    second: {fileID: 2100000, guid: 9b851d01613653058467538e3c1d1cdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Glass_Violet
+    second: {fileID: 2100000, guid: 1d8f3be2653e5f61a60585821bb65ba0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Gold_Metal
+    second: {fileID: 2100000, guid: 318913dd1c805070a5d53705910d8d0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Opening_Dark
+    second: {fileID: 2100000, guid: eff600099ee75183bfb143cf0fd3ad8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Roof_Purple
+    second: {fileID: 2100000, guid: 9183939b6856533d9d00c788fe5e0167, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Roof_Royal_Blue
+    second: {fileID: 2100000, guid: c4f8468a200859aebe1189c75fb9705d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Stone_Dark
+    second: {fileID: 2100000, guid: 1c8b9239cfe25973ab5cfe87f461cf65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Stone_Floor
+    second: {fileID: 2100000, guid: 8f8a792db2f65df38c82dcb677739ea8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Stone_Light
+    second: {fileID: 2100000, guid: 4c2d7ebcf52f5b4dae78a767729742f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Stone_Main
+    second: {fileID: 2100000, guid: 5e62cf14c18c5fe28dec12c4f6d7c8bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Vegetation
+    second: {fileID: 2100000, guid: 5f66e66b5ce25321a7e75f270b769480, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Vegetation_Light
+    second: {fileID: 2100000, guid: e130f7e6b5e65d7480e956058642cae3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Water
+    second: {fileID: 2100000, guid: 6a6052af2bc15289985a6c6ba312e7d7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
