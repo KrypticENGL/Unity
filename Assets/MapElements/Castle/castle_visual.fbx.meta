@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 3374d53c4e88af94cac50a08b26eaf89
+guid: 59ceb13a099d2244e984327161f967fe
 ModelImporter:
   serializedVersion: 24300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_Stone
-    second: {fileID: 2100000, guid: 7c88eb535e3d4c92b85fdc62dd549b0c, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -38,11 +33,7 @@ ModelImporter:
     clipAnimations: []
     isReadable: 0
   meshes:
-    lODScreenPercentages:
-    - 0.25
-    - 0.125
-    - 0.0625
-    - 0.01
+    lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
