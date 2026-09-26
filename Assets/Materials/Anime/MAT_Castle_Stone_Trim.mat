@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3016593218765349201
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_Castle_Stone_Trim
+  m_Shader: {fileID: -6465566751694194690, guid: a1e5f7c3b9d24e6a8c0f1b3d5e7a9c21, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AmbientSceneInfluence: 0.3
+    - _AmbientStrength: 0.25
+    - _Brightness: 1
+    - _EmissionStrength: 0
+    - _FormRetention: 0.3
+    - _FresnelPower: 4
+    - _FresnelStrength: 0
+    - _HighlightStrength: 0.12
+    - _MaxLightIntensity: 1.05
+    - _Metallic: 0
+    - _MidWidth: 0.38
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RimPower: 4
+    - _RimStrength: 0.12
+    - _Roughness: 0.5
+    - _RoyalHighlightStrength: 0.35
+    - _Saturation: 1
+    - _ShadowStrength: 0.58
+    - _ShadowTintStrength: 0.68
+    - _SpecularSize: 0.35
+    - _SpecularStrength: 0.14
+    - _SpecularThreshold: 0.5
+    - _ToonSoftness: 0.22
+    - _ToonThreshold: 0.05
+    - _VertexColorStrength: 0
+    m_Colors:
+    - _AmbientColor: {r: 0.62, g: 0.68, b: 0.9, a: 1}
+    - _BaseColor: {r: 1, g: 0.95, b: 0.86, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 0.7, g: 0.85, b: 1, a: 1}
+    - _MidColor: {r: 0.95, g: 0.9, b: 0.88, a: 1}
+    - _RimColor: {r: 0.85, g: 0.9, b: 1, a: 1}
+    - _ShadowColor: {r: 0.62, g: 0.6, b: 0.96, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
