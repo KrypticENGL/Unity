@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_Aurelius_CityPavement
+  m_Shader: {fileID: 4800000, guid: 8123f548c9244a14cb62a01b6cf6a2d4, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AccentChance: 0.05
+    - _AmbientSceneInfluence: 0.3
+    - _AmbientStrength: 0.25
+    - _BevelWidth: 0.12
+    - _BorderWidth: 1.3
+    - _Brightness: 1
+    - _FormRetention: 0.3
+    - _HighlightStrength: 0.08
+    - _MaxLightIntensity: 1.05
+    - _MidWidth: 0.38
+    - _MortarWidth: 0.07
+    - _RimPower: 4
+    - _RimStrength: 0
+    - _Saturation: 1
+    - _ShadowStrength: 0.4
+    - _ShadowTintStrength: 0.6
+    - _TileRotation: 0
+    - _ToonSoftness: 0.35
+    - _ToonThreshold: 0
+    - _Variation: 0.55
+    m_Colors:
+    - _Accent: {r: 0.62, g: 0.66, b: 0.74, a: 1}
+    - _AmbientColor: {r: 0.62, g: 0.68, b: 0.9, a: 1}
+    - _BorderColor: {r: 0.74, g: 0.7, b: 0.66, a: 1}
+    - _MidColor: {r: 0.9, g: 0.88, b: 0.9, a: 1}
+    - _MortarColor: {r: 0.66, g: 0.63, b: 0.63, a: 1}
+    - _RimColor: {r: 0.85, g: 0.9, b: 1, a: 1}
+    - _RoyalTint: {r: 1.04, g: 1.03, b: 1, a: 1}
+    - _ShadowColor: {r: 0.52, g: 0.52, b: 0.65999997, a: 1}
+    - _StoneBase: {r: 0.96, g: 0.91, b: 0.81, a: 1}
+    - _StoneSecondary: {r: 0.88, g: 0.83, b: 0.74, a: 1}
+    - _TileCentral: {r: 2.7899997, g: 1.6200001, b: 0, a: 0}
+    - _TileGeneral: {r: 0.9, g: 0.6, b: 0, a: 0}
+    - _TileMajor: {r: 2.43, g: 1.2, b: 0, a: 0}
+    - _TilePlaza: {r: 1.6199999, g: 0.81000006, b: 0, a: 0}
+    - _TileSecondary: {r: 1.4399999, g: 0.72, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

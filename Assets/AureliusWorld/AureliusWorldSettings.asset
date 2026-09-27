@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fea6106eec6dc4abdfa4289167ebb0, type: 3}
+  m_Name: AureliusWorldSettings
+  m_EditorClassIdentifier: Assembly-CSharp::Aurelius.World.AureliusWorldSettings
+  seed: 1337
+  northYaw: 180
+  cityCenter: {x: 0, y: 0}
+  tilesPerSide: 3
+  tileSize: 2048
+  heightmapResolution: 1025
+  alphamapResolution: 1024
+  detailResolution: 512
+  maskResolution: 512
+  terrainBaseY: -80
+  terrainHeight: 1400
+  worldRadius: 2850
+  coastIrregularity: 0.07
+  seaLevel: -18
+  coastCliffWidth: 80
+  landHeight: 7
+  outerPlateauHeight: 22
+  rollingHillHeight: 14
+  cityRadius: 670
+  cityFloorHeight: 3.95
+  cityTransitionWidth: 240
+  landmarkPads:
+  - name: Castle Apron
+    enabled: 1
+    shape: 0
+    polygon:
+    - {x: -299.91833, y: -299.8162}
+    - {x: 299.91833, y: -299.8162}
+    - {x: 299.91833, y: 299.8162}
+    - {x: -299.91833, y: 299.8162}
+    center: {x: 0, y: 0}
+    radii: {x: 100, y: 100}
+    innerHeight: 3.95
+    edgeHeight: 3.95
+    inset: 2
+    blend: 2
+  - name: University
+    enabled: 1
+    shape: 0
+    polygon:
+    - {x: 146.378, y: -351.82416}
+    - {x: 147.20671, y: -357.26175}
+    - {x: 149.42207, y: -362.29678}
+    - {x: 152.84413, y: -366.54947}
+    - {x: 330.75696, y: -537.57263}
+    - {x: 331.72107, y: -536.563}
+    - {x: 502.5791, y: -352.6053}
+    - {x: 567.94946, y: -236.50539}
+    - {x: 564.8131, y: -232.63097}
+    - {x: 513.61194, y: -183.76508}
+    - {x: 325.23892, y: -156.37192}
+    - {x: 217.82744, y: -204.25253}
+    - {x: 204.09525, y: -218.59769}
+    - {x: 149.00912, y: -341.2287}
+    - {x: 146.99265, y: -346.35535}
+    center: {x: 0, y: 0}
+    radii: {x: 100, y: 100}
+    innerHeight: 15.9
+    edgeHeight: 12
+    inset: 8
+    blend: 110
+  - name: Colloseum
+    enabled: 1
+    shape: 0
+    polygon:
+    - {x: -604.1076, y: -12.876833}
+    - {x: -572.8661, y: -53.26018}
+    - {x: -565.3392, y: -63.001125}
+    - {x: -565.0944, y: -63.311962}
+    - {x: -556.36053, y: -71.98712}
+    - {x: -556.0773, y: -72.26335}
+    - {x: -512.1312, y: -114.814316}
+    - {x: -472.46875, y: -114.81432}
+    - {x: -427.988, y: -71.794464}
+    - {x: -419.31284, y: -63.06053}
+    - {x: -419.03662, y: -62.777306}
+    - {x: -380.49237, y: -12.876832}
+    - {x: -380.49237, y: 14.876825}
+    - {x: -411.7339, y: 55.26018}
+    - {x: -419.26074, y: 65.001114}
+    - {x: -419.5055, y: 65.31196}
+    - {x: -428.2394, y: 73.98711}
+    - {x: -428.52267, y: 74.26334}
+    - {x: -472.46875, y: 116.814316}
+    - {x: -512.1312, y: 116.81432}
+    - {x: -556.61194, y: 73.79446}
+    - {x: -565.2871, y: 65.060524}
+    - {x: -565.56335, y: 64.7773}
+    - {x: -604.1076, y: 14.876826}
+    center: {x: 0, y: 0}
+    radii: {x: 100, y: 100}
+    innerHeight: 7.95
+    edgeHeight: 7.95
+    inset: 2
+    blend: 45
+  mountainHeight: 620
+  mountainRegion:
+    bearing: 5
+    arc: 125
+    softness: 25
+    innerDistance: 1050
+    outerDistance: 0
+    strength: 1
+  foothillRegion:
+    bearing: 58
+    arc: 55
+    softness: 18
+    innerDistance: 1350
+    outerDistance: 0
+    strength: 0.55
+  ridgeCount: 5
+  summitBearing: 22
+  summitExtraHeight: 260
+  snowLine: 520
+  corridorValleyWidth: 90
+  forestRegion:
+    bearing: 210
+    arc: 150
+    softness: 35
+    innerDistance: 760
+    outerDistance: 0
+    strength: 1
+  southEastForest:
+    bearing: 140
+    arc: 55
+    softness: 20
+    innerDistance: 800
+    outerDistance: 0
+    strength: 0.8
+  westForest:
+    bearing: 262
+    arc: 50
+    softness: 20
+    innerDistance: 1500
+    outerDistance: 0
+    strength: 0.8
+  forestDensity: 1
+  clearingAmount: 0.28
+  farmRegion:
+    bearing: 302
+    arc: 85
+    softness: 22
+    innerDistance: 720
+    outerDistance: 2350
+    strength: 1
+  westFarms:
+    bearing: 265
+    arc: 35
+    softness: 15
+    innerDistance: 720
+    outerDistance: 1500
+    strength: 0.75
+  fieldSize: 85
+  fieldRotation: 18
+  rockyRegion:
+    bearing: 135
+    arc: 55
+    softness: 20
+    innerDistance: 900
+    outerDistance: 0
+    strength: 1
+  ruggedSouth:
+    bearing: 182
+    arc: 80
+    softness: 25
+    innerDistance: 2000
+    outerDistance: 0
+    strength: 0.7
+  rockyHillHeight: 42
+  lakeBearing: 116
+  lakeDistance: 1720
+  lakeRadius: 560
+  lakeIrregularity: 0.34
+  lakeWaterLevel: 1
+  lakeDepth: 16
+  lakeIslandCount: 4
+  riverCount: 5
+  riverWidthStart: 3.5
+  riverWidthEnd: 13
+  riverDepth: 2.6
+  riverMeander: 26
+  majorPathWidth: 14
+  secondaryPathWidth: 5
+  corridorWander: 110
+  ringPath: 1
+  pathDestinations: 26
+  pathDepression: 0.35
+  treeSpacing: 8.5
+  grassDensity: 1
+  rockDensity: 1
+  nearCityVegetation: 0.25
+  treeDistance: 1600
+  detailDistance: 140

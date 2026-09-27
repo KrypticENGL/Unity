@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_Aurelius_Terrain
+  m_Shader: {fileID: 4800000, guid: 47105a96e4d85c3478e79bac35b0049b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AureliusMaskA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AureliusMaskB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: fdeb828a6d81db146aa8c04ff49f09d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TerrainHolesTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AmbientSceneInfluence: 0.3
+    - _AmbientStrength: 0.25
+    - _Brightness: 1
+    - _DetailScale: 0.11
+    - _EnableInstancedPerPixelNormal: 1
+    - _FormRetention: 0.35
+    - _GrainScale: 0.55
+    - _GrainStrength: 0.06
+    - _HeightTransition2: 0.35
+    - _HighlightStrength: 0.1
+    - _MacroScale: 0.0055
+    - _MaxLightIntensity: 1.05
+    - _MidWidth: 0.38
+    - _RimPower: 4
+    - _RimStrength: 0.03
+    - _Saturation: 1.05
+    - _ShadowStrength: 0.44
+    - _ShadowTintStrength: 0.66
+    - _SnowBlend: 45
+    - _ToonSoftness: 0.35
+    - _ToonThreshold: 0
+    m_Colors:
+    - _AmbientColor: {r: 0.54999995, g: 0.7, b: 0.85, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CliffA: {r: 0.56, g: 0.53, b: 0.5, a: 1}
+    - _CliffB: {r: 0.45, g: 0.43, b: 0.43, a: 1}
+    - _CliffSlope: {r: 0.28, g: 0.42, b: 0, a: 0}
+    - _CropFallow: {r: 0.65999997, g: 0.74, b: 0.39999998, a: 1}
+    - _CropGreen: {r: 0.5, g: 0.72, b: 0.27999997, a: 1}
+    - _CropWheat: {r: 0.9, g: 0.76, b: 0.35999998, a: 1}
+    - _DarkGrassA: {r: 0.24999997, g: 0.52, b: 0.21999997, a: 1}
+    - _DarkGrassB: {r: 0.31999996, g: 0.58, b: 0.23999995, a: 1}
+    - _FieldEdge: {r: 0.32999998, g: 0.56, b: 0.23999995, a: 1}
+    - _FieldParams: {r: 85, g: 18, b: 2248, a: 1.5}
+    - _ForestA: {r: 0.3, g: 0.43, b: 0.2, a: 1}
+    - _ForestB: {r: 0.44, g: 0.45, b: 0.23, a: 1}
+    - _GrassA: {r: 0.41999996, g: 0.7, b: 0.26999995, a: 1}
+    - _GrassB: {r: 0.54999995, g: 0.77, b: 0.29999998, a: 1}
+    - _MidColor: {r: 0.8399999, g: 0.9, b: 0.82, a: 1}
+    - _MountainRockA: {r: 0.56, g: 0.56, b: 0.6, a: 1}
+    - _MountainRockB: {r: 0.43999997, g: 0.45, b: 0.5, a: 1}
+    - _MountainRockRange: {r: 218.4, g: 457.6, b: 0, a: 0}
+    - _MudA: {r: 0.45, g: 0.39999998, b: 0.28999996, a: 1}
+    - _MudB: {r: 0.37999994, g: 0.45, b: 0.27999997, a: 1}
+    - _PathA: {r: 0.76, g: 0.62, b: 0.42999998, a: 1}
+    - _PathB: {r: 0.65999997, g: 0.52, b: 0.35999998, a: 1}
+    - _RimColor: {r: 0.85, g: 0.9, b: 1, a: 1}
+    - _RockyA: {r: 0.54999995, g: 0.52, b: 0.45999992, a: 1}
+    - _RockyB: {r: 0.45999992, g: 0.43999997, b: 0.40999997, a: 1}
+    - _SandA: {r: 0.93, g: 0.85, b: 0.6399999, a: 1}
+    - _SandB: {r: 0.86, g: 0.77, b: 0.56999993, a: 1}
+    - _ShadowColorEarth: {r: 0.43999997, g: 0.41999996, b: 0.6, a: 1}
+    - _ShadowColorGreen: {r: 0.13999996, g: 0.35999998, b: 0.39999998, a: 1}
+    - _ShadowColorSnow: {r: 0.54999995, g: 0.62, b: 0.9, a: 1}
+    - _SnowColor: {r: 0.95, g: 0.96999997, b: 1, a: 1}
+    - _SoilA: {r: 0.56, g: 0.39999998, b: 0.24999997, a: 1}
+    - _SoilB: {r: 0.43999997, g: 0.29999998, b: 0.18999997, a: 1}
+    - _WaterLevels: {r: 1, g: -18, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
