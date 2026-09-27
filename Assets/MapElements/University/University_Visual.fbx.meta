@@ -3,67 +3,7 @@ guid: ea0e2ccf44015f741b2981084ddce5f4
 ModelImporter:
   serializedVersion: 24300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_University_Foliage
-    second: {fileID: 2100000, guid: 5f66e66b5ce25321a7e75f270b769480, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_University_Gold
-    second: {fileID: 2100000, guid: a6df655c33db5c5cbd01bd80637f1ac2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_University_Grass
-    second: {fileID: 2100000, guid: dd63ac231eab5396aee125aec821fd78, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_University_Paving
-    second: {fileID: 2100000, guid: 63e68b870864513389ab0620dc95a4f3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_University_Rock
-    second: {fileID: 2100000, guid: 72feb0a70cac5b3bae2e801c8087e927, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_University_Roof_Slate
-    second: {fileID: 2100000, guid: 66cb18a0e9915013a3c783be502d3805, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_University_Stone_Weathered
-    second: {fileID: 2100000, guid: 204fafb746235420beb38c35df3e86aa, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_University_Stone_White
-    second: {fileID: 2100000, guid: 7a0a624ec7aa5921a6ae84ebfcee9999, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_University_Teal
-    second: {fileID: 2100000, guid: 55e2e390eb1a504582d27a24fabd837b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_University_Water
-    second: {fileID: 2100000, guid: 6a6052af2bc15289985a6c6ba312e7d7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_University_Window
-    second: {fileID: 2100000, guid: f1915731e8c55890a11deea1850b51d7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_University_Wood
-    second: {fileID: 2100000, guid: 34535f294eae57b09c2f2eaa6d901243, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
